@@ -1,6 +1,0 @@
-<div>
-  <div *ngFor="let post of posts; let i = index;" class="mb-2">
-    <h3>{{ i+1 }}. <a [routerLink]="'/posts/'+post.id">{{ post.title }}</a></h3>
-    <p>{{ post.body }}</p>
-  </div>
-</div>
